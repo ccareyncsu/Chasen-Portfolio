@@ -5,9 +5,9 @@ import {SocialIcon} from 'react-social-icons';
 
 export default function ContactSection (props) {
   return(
-    <div className='section'>
+    <div className='section' id='contact'>
       <div>
-        <h2 className='teal-bar white-text'>Contact</h2>
+        <h2 className='teal-bar white-text left'>CONTACT</h2>
         <h3 className='contact-message'>I look foward to hearing from you!</h3>
         <div className='social-icons'>  
           <SocialIcon url="http://linkedin.com/in/chasen-arey" className='social-icons' title='LinkedIn'/>

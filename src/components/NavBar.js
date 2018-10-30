@@ -7,7 +7,7 @@ export default function NavBar(props) {
       <div className='nav-text'>
         <h2 className='teal-text'>Chasen Arey</h2>
         <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
-        <MdMenu className='menu teal-text'/>
+        <MdMenu className='menu teal-text' onClick={props.onClick()}/>
       </div>
   </div>
   )

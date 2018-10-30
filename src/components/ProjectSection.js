@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProjectSection(props) {
   return(
-    <div className='section'>
+    <div className='section' id='projects'>
       <div>
         <h2 className='teal-bar white-text left'>PROJECTS</h2>
       </div>

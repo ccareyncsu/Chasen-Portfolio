@@ -7,18 +7,40 @@ import SkillsSection from './SkillsSection';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
 import ContactSection from './ContactSection';
+import Overlay from './Overlay';
 
 class LandingPage extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      display: false
+    };
+  }
+
+  handleOverlay= () => {
+    console.log('overlay handled');
+    this.setState({
+      display: !this.state.display
+    })
+  }
+  
   render() {
+    console.log(this.state);
+    let overlay;
+    if(this.state.display === true){
+      overlay = <Overlay onClick={()=> this.handleOverlay}/> 
+    }else{overlay = ''};
+
     return (
       <div className="App">
-        <NavBar />
+        {overlay}
+        <NavBar onClick={()=> this.handleOverlay}/>
         <Header />
-        <AboutSection id='about'/>
-        <ProjectSection id='project'/>
-        <SkillsSection id='skills'/>
+        <AboutSection />
+        <ProjectSection />
+        <SkillsSection />
         {/* <EducationSection /> */}
-        <ContactSection id='contact'/>
+        <ContactSection />
       </div>
     );
   }
