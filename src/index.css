@@ -7,6 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("/images/sports_icons.png");
+  background-size: cover;
+  z-index: -10; */
 }
 
 code {
@@ -177,7 +180,7 @@ code {
 .about-section::before , .section::before{ 
   display: block; 
   content: " "; 
-  margin-top: -56px; 
+  margin-top: -57px; 
   height: 51px; 
   visibility: hidden; 
   pointer-events: none;
