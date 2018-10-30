@@ -14,11 +14,11 @@ class LandingPage extends Component {
       <div className="App">
         <NavBar />
         <Header />
-        <AboutSection />
-        <ProjectSection />
-        <SkillsSection />
+        <AboutSection id='about'/>
+        <ProjectSection id='project'/>
+        <SkillsSection id='skills'/>
         {/* <EducationSection /> */}
-        <ContactSection />
+        <ContactSection id='contact'/>
       </div>
     );
   }
