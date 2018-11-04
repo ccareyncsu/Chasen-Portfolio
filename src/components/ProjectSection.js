@@ -19,7 +19,7 @@ export default function ProjectSection(props) {
               Once the user selects a few dates/times and restaurants/activities, the 
               app generates a voting form, which the user shares with their guest attendees via link or email. 
               The guest attendees then vote, and the user sees the most popular options on their dashboard, so they now know the options that 
-              work best for everyone!!
+              work best for everyone!
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function ProjectSection(props) {
             <p className='float-right clearfix'>
               Drone Racing is a gaming app that allows a user to login, create, and tune a 2018 AAI RQ-7A BLACK HAWK drone based 
               on the specifications of speed, acceleration, turning, weight, drag, durability, and handling. Once the user is satisfied
-              with the tuning of their drone they are able to race against other users on the database. 
+              with the tuning of their drone, they are able to race against other users on the database. 
             </p>
           </div>
         </div>
@@ -69,9 +69,9 @@ export default function ProjectSection(props) {
             <p className='float-right clearfix'>
               This application helps to solve the problem of learning new terminology, specifically data structures.  It uses a 
               spaced-repetition algorithm learning technique that incorporates increasing intervals of time between subsequent 
-              review of previously learned material in order to exploit the psychological spacing effect. users to create their 
-              own account and tracks their progress through the content. Also included is a reset button to allow the user to start
-              back at the beginning of the content at any time and reset their progress.
+              review of previously learned material in order to exploit the psychological spacing effect. Users create their 
+              own account and can track their progress through the content. Also included is a reset button to allow the user to start
+              back at the beginning of the content at any time.
             </p>
           </div>
         </div>
