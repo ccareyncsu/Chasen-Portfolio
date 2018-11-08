@@ -7,7 +7,7 @@ export default function SkillsSection(props) {
         <h2 className='teal-bar white-text left'>SKILLS</h2>
       </div>
 
-      <div className='container'>
+      <div className='container skill'>
         <h2 className='teal-text skill-header'>Front End</h2>
         <div className='row'>
           <div className='col'>
@@ -37,7 +37,7 @@ export default function SkillsSection(props) {
         </div> 
       </div>
 
-      <div className='container'>
+      <div className='container skill'>
         <h2 className='teal-text skill-header'>Back End</h2>
         <div className='row'>
           <div className='col'>
@@ -58,7 +58,7 @@ export default function SkillsSection(props) {
           </div>
         </div>
       </div>
-      <div className='container'>
+      <div className='container skill'>
         <h2 className='teal-text skill-header'>Other Tools</h2>
         <div className='row'>
           <div className='col'>
