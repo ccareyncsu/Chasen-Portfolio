@@ -7,7 +7,7 @@ export default function ProjectSection(props) {
         <h2 className='teal-bar white-text left'>PROJECTS</h2>
       </div>
   
-      <div className='project center clearfix'>
+      <div className='project container center clearfix'>
         <div className='row'>
           <img className='col-6 project-image' src='images/goodtimes.gif' alt='Goodtimes' />
           <div className='col-6'>
@@ -24,10 +24,28 @@ export default function ProjectSection(props) {
           </div>
         </div>
         <div className='tech col-12'>
-          <p >
-            Tech-Stack:
-            React, Redux, Node, Express, Mongo
-          </p>
+          <h3>Tech Stack:</h3>
+          <div className='front-stack col-6-sm'>
+            <span class="tech-stack-header">Front-End:</span>
+            <ul>
+              <li class="stack-item">React/Redux</li>
+              <li class="stack-item">Moment.js</li>
+              <li class="stack-item">Bing Maps API</li>
+              <li class="stack-item">Enzyme/Jest</li>
+            </ul>
+          </div>
+          <div className='back-stack col-6-sm'>
+            <span class="tech-stack-header">Back-End:</span>
+            <ul>
+              <li class="stack-item">Node.js/Express</li>
+              <li class="stack-item">Bcrypt/Passport</li>
+              <li class="stack-item">MongoDB</li>
+              <li class="stack-item">Bcrypt</li>
+              <li class="stack-item">Axios</li>
+              <li class="stack-item">Sendgrid, Yelp, Bitly, EventBrite API</li>
+              <li class="stack-item">Mocha/Chai</li>
+            </ul>
+          </div>
         </div>
         <div className='links'>
           <a href='https://goodtimes-client.herokuapp.com'>Live App</a> 
@@ -36,7 +54,7 @@ export default function ProjectSection(props) {
         </div>
       </div> 
 
-      <div className='project center clearfix'>
+      <div className='project container center clearfix'>
         <div className='row'>
           <img className='col-6 project-image' src='images/drone-racing.gif' alt='Drone Racing: The Big Race' />
           <div className='col-6'>
@@ -61,7 +79,7 @@ export default function ProjectSection(props) {
         </div>
       </div> 
 
-      <div className='project center clearfix'>
+      <div className='project container center clearfix'>
         <div className='row'>
           <img className='col-6 project-image' src='images/data-structures.gif' alt='Data Structures App' />
           <div className='col-6'>

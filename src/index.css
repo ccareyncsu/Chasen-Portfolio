@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
+
+*{
+  font-family: 'Roboto', sans-serif !important;
+}
+
 body {
   margin: 0;
   margin-top:50px;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: url("/images/sports_icons.png");
@@ -12,10 +15,10 @@ body {
   z-index: -10; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 .nav{
   position: fixed !important;
@@ -79,20 +82,33 @@ code {
   1px -1px 0 black,
   -1px 1px 0 black,
   1px 1px 0 black; 
-  
-  
 }
 
 .about-text{
-  margin-top: 50px
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+.about-2{
+  padding-right: 65px;
+}
+
+.about-3{
+  margin-right:10px
+}
+
+.about-header{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  line-height: 40px;
 }
 
 .section{
   margin-top: 80px
 }
 
-.project, .container{
-  width: 90%;
+.project, .skill{
+  width: 90% !important;
   margin-top: 50px;
   box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.2), 1px 5px 10px 1px rgba(0,0,0,0.15)
 }
@@ -102,12 +118,12 @@ code {
 }
 
 .project-name{
-  padding: 20px;
+  padding: 20px 10px 0 10px;
   text-align: left;
 }
 
 .project p{
-  padding: 20px;
+  padding: 20px 10px 0 10px;
   text-align: left;
 }
 
@@ -128,23 +144,21 @@ code {
 .skills{
   padding: 10px;
   max-height: 100px;
-  max-width: 85px;
   display: block;
 }
 
 .skill-header{
   text-align: left;
   padding: 20px;
-  /* border-bottom: 1px solid #025353; */
 }
 
 .skill-header:after, .project-name:after{
-  content: ""; /* This is necessary for the pseudo element to work. */ 
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  width: 98%; /* Change this to whatever width you want. */
-  padding-top: 20px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid #025353; /* This creates the border. Replace black with whatever color you want. */
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 98%; 
+  padding-top: 20px; 
+  border-bottom: 1px solid #025353; 
 }
 
 .file{
@@ -195,8 +209,10 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(67, 70, 247, .97); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+
+  /* background-color: rgba(67, 70, 247, .97); */
+  background-color: rgba(2, 83, 83, .97); /* Black background with opacity */
+  z-index: 2; 
   cursor: pointer;
   display : flex;
   align-items : center;
@@ -220,6 +236,17 @@ code {
   padding:10px 0;
 }
 
+.left-border{
+  border-left: #025353 4px solid;
+  padding-left: 10px;
+  margin: 40px 0;
+}
+
+.front-stack, .back-stack{
+  display: inline-block;
+  vertical-align: top;
+}
+
 @media screen and (max-width: 440px){
   .nav-text h2{
     font-size: 1.4em;
@@ -228,6 +255,10 @@ code {
     font-size: 35px;
     top: 8px;
   }
+  .about-header{
+    text-align: left !important;
+  }
+
 }
 
 @media screen and (max-width: 1000px){
@@ -243,9 +274,9 @@ code {
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 750px){
   .quote{
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 }
 
