@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import logo from './logo.svg';
 import './normalize.css';
 import './simple-grid.css';
+import './flow-text.css';
 import './App.css';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
