@@ -110,7 +110,7 @@ body {
 .project, .skill{
   width: 90% !important;
   margin-top: 50px;
-  box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.2), 1px 5px 10px 1px rgba(0,0,0,0.15)
+  box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.2), 1px 5px 10px 1px rgba(0,0,0,0.15), inset 0px 1px 0px 1px rgba(0,0,0,0.15);
 }
 
 .project-image{
