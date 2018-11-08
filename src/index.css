@@ -152,13 +152,42 @@ body {
   padding: 20px;
 }
 
-.skill-header:after, .project-name:after{
+.skill-header:after, .project-name:after, .tech-stack:after{
   content: "";
   display: block;
   margin: 0 auto;
   width: 98%; 
   padding-top: 20px; 
   border-bottom: 1px solid #025353; 
+}
+
+.tech-stack:after{
+  padding-top: 10px;
+  width: 95%;
+  margin: 0;
+}
+
+.tech-stack{
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.tech-stack-header{
+  font-size: 120%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.front-stack, .back-stack{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.stack-item{
+  padding: 5px 0 0 10px;
 }
 
 .file{
@@ -214,7 +243,7 @@ body {
   background-color: rgba(2, 83, 83, .97); /* Black background with opacity */
   z-index: 2; 
   cursor: pointer;
-  display : flex;
+  display: flex;
   align-items : center;
 }
 
@@ -240,11 +269,6 @@ body {
   border-left: #025353 4px solid;
   padding-left: 10px;
   margin: 40px 0;
-}
-
-.front-stack, .back-stack{
-  display: inline-block;
-  vertical-align: top;
 }
 
 @media screen and (max-width: 440px){

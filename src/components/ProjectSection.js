@@ -23,28 +23,31 @@ export default function ProjectSection(props) {
             </p>
           </div>
         </div>
-        <div className='tech col-12'>
-          <h3>Tech Stack:</h3>
-          <div className='front-stack col-6-sm'>
-            <span class="tech-stack-header">Front-End:</span>
-            <ul>
-              <li class="stack-item">React/Redux</li>
-              <li class="stack-item">Moment.js</li>
-              <li class="stack-item">Bing Maps API</li>
-              <li class="stack-item">Enzyme/Jest</li>
-            </ul>
-          </div>
-          <div className='back-stack col-6-sm'>
-            <span class="tech-stack-header">Back-End:</span>
-            <ul>
-              <li class="stack-item">Node.js/Express</li>
-              <li class="stack-item">Bcrypt/Passport</li>
-              <li class="stack-item">MongoDB</li>
-              <li class="stack-item">Bcrypt</li>
-              <li class="stack-item">Axios</li>
-              <li class="stack-item">Sendgrid, Yelp, Bitly, EventBrite API</li>
-              <li class="stack-item">Mocha/Chai</li>
-            </ul>
+        <div className='tech'>
+          <h3 className='tech-stack teal-text'>Tech Stack:</h3>
+          <div className='row front-back-stack'>
+            <div className='front-stack col-6-sm'>
+              <span class="tech-stack-header">Front-End:</span>
+              <ul className='stack-items'>
+                <li class="stack-item">React</li>
+                <li class="stack-item">Redux</li>
+                <li class="stack-item">Moment.js</li>
+                <li class="stack-item">Bing Maps API</li>
+                <li class="stack-item">Enzyme & Jest</li>
+              </ul>
+            </div>
+            <div className='back-stack col-5-sm'>
+              <span class="tech-stack-header">Back-End:</span>
+              <ul className='stack-items'>
+                <li class="stack-item">Node.js & Express</li>
+                <li class="stack-item">Bcrypt & Passport</li>
+                <li class="stack-item">MongoDB</li>
+                <li class="stack-item">Axios</li>
+                <li class="stack-item">Sendgrid & Bitly API</li>
+                <li class="stack-item">Yelp & EventBrite API</li>
+                <li class="stack-item">Mocha & Chai</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className='links'>
@@ -60,17 +63,33 @@ export default function ProjectSection(props) {
           <div className='col-6'>
             <h2 className='teal-text project-name'>Drone Racing: The Big Race</h2>
             <p className='float-right clearfix'>
-              Drone Racing is a gaming app that allows a user to login, create, and tune a 2018 AAI RQ-7A BLACK HAWK drone based 
+              Drone Racing is a gaming app that allows a user to create their own 2018 AAI RQ-7A BLACK HAWK drone based 
               on the specifications of speed, acceleration, turning, weight, drag, durability, and handling. Once the user is satisfied
               with the tuning of their drone, they are able to race against other users on the database. 
             </p>
           </div>
         </div>
-        <div className='tech col-12'>
-          <p>
-            Tech-Stack:
-            React, Redux, Node, Express, Mongo
-          </p>
+        <div className='tech'>
+          <h3 className='tech-stack teal-text'>Tech Stack:</h3>
+          <div className='row front-back-stack'>
+            <div className='front-stack col-6-sm'>
+              <span class="tech-stack-header">Front-End:</span>
+              <ul className='stack-items'>
+                <li class="stack-item">React</li>
+                <li class="stack-item">Redux</li>
+                <li class="stack-item">Enzyme & Jest</li>
+              </ul>
+            </div>
+            <div className='back-stack col-5-sm'>
+              <span class="tech-stack-header">Back-End:</span>
+              <ul className='stack-items'>
+                <li class="stack-item">Node.js & Express</li>
+                <li class="stack-item">Bcrypt & Passport</li>
+                <li class="stack-item">MongoDB</li>
+                <li class="stack-item">Mocha & Chai</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className='links'>
           <a href='https://drone-racing-client.herokuapp.com'>Live App</a> 
@@ -93,11 +112,25 @@ export default function ProjectSection(props) {
             </p>
           </div>
         </div>
-        <div className='col-12 tech'>
-          <p>
-            Tech-Stack:
-            React, Redux, Node, Express, Mongo
-          </p>
+        <div className='tech'>
+          <h3 className='tech-stack teal-text'>Tech Stack:</h3>
+          <div className='row front-stack col-6-sm'>
+            <span class="tech-stack-header">Front-End:</span>
+            <ul className='stack-items'>
+              <li class="stack-item">React</li>
+              <li class="stack-item">Redux</li>
+              <li class="stack-item">CSS</li>
+            </ul>
+          </div>
+          <div className='back-stack col-5-sm'>
+            <span class="tech-stack-header">Back-End:</span>
+            <ul className='stack-items'>
+              <li class="stack-item">Node.js & Express</li>
+              <li class="stack-item">Bcrypt & Passport</li>
+              <li class="stack-item">MongoDB</li>
+              <li class="stack-item">Mocha & Chai</li>
+            </ul>
+          </div>
         </div>
         <div className='links'>
           <a href='https://chasen-mitch-spacedrep-client.herokuapp.com/'>Live App</a> 
