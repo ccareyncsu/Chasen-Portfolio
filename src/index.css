@@ -205,6 +205,11 @@ body {
   margin-left: 10px;
 }
 
+.social-icon:hover{
+  -webkit-transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
 .contact-message{
   padding-top: 30px;
   margin-bottom: -40px;
