@@ -9,7 +9,7 @@ export default function SkillsSection(props) {
 
       <div className='container skill'>
         <h2 className='teal-text skill-header'>Front End</h2>
-        <div className='row'>
+        <div className='row skills-row'>
           <div className='col'>
             <img className='skills' src='\images\html-5.svg' alt='html5 icon' />
             HTML
@@ -39,7 +39,7 @@ export default function SkillsSection(props) {
 
       <div className='container skill'>
         <h2 className='teal-text skill-header'>Back End</h2>
-        <div className='row'>
+        <div className='row skills-row'>
           <div className='col'>
             <img className='skills' src='\images\nodejs.svg' alt='node icon' />
             Node
@@ -60,7 +60,7 @@ export default function SkillsSection(props) {
       </div>
       <div className='container skill'>
         <h2 className='teal-text skill-header'>Other Tools</h2>
-        <div className='row'>
+        <div className='row skills-row'>
           <div className='col'>
             <img className='skills' src='\images\github.png' alt='GitHub icon' />
             GitHub

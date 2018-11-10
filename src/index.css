@@ -147,6 +147,10 @@ body {
   display: block;
 }
 
+.skills-row{
+  padding-bottom: 30px;
+}
+
 .skill-header{
   text-align: left;
   padding: 20px;
@@ -155,7 +159,7 @@ body {
 .skill-header:after, .project-name:after, .tech-stack:after{
   content: "";
   display: block;
-  margin: 0 auto;
+  margin: 0;
   width: 98%; 
   padding-top: 20px; 
   border-bottom: 1px solid #025353; 
