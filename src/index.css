@@ -195,19 +195,34 @@ body {
 }
 
 .file{
-  width: 32px;
-  height: 100px;
-  position: relative;
-  top: 46px;
+  width: 30px;
+  height: 30px;
+  color: white;
 }
 
+.social-icons{
+  margin: 20px 0 30px 0;
+}
 .social-icon{
   margin-left: 10px;
+  transition: all .5s ease;
 }
 
 .social-icon:hover{
   -webkit-transform: rotate(360deg);
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  background: #025353;
+}
+
+.file-background{
+  display: inline-block;
+  border: #6A687A 1px solid;
+  border-radius: 100%;
+  padding: 11px;
+  /* width: 30px; */
+  position: relative;
+  top: 8px;
+  background: #593C8F;
 }
 
 .contact-message{

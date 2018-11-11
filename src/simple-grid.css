@@ -19,6 +19,11 @@ body {
   font-size: 100%;
 }
 
+/* ::selection{
+  background-color: #025353;
+  color: white;
+} */
+
 /* ROOT FONT STYLES */
 
 * {
