@@ -18,16 +18,17 @@ export default function ContactSection (props) {
               <div className='file-background social-icon'>
                 <FaLinkedinIn className='file' title='LinkedIn'/>
               </div>
+              LinkedIn
             </span>
           </a>
-            <a href='https://docs.google.com/document/d/1bwLMQrKyk6diShgQhyYHkc8hdDnkKZ2stIIXwGSNKh8/edit#heading=h.gjdgxs'>
+            <a href='mailto:ccarey@ncsu.edu'>
             <span title="Email Chasen">
               <div className='file-background social-icon'>
                 <FaEnvelope className='file' title='Email'/>
               </div>
             </span>
           </a>
-          <a href='https://docs.google.com/document/d/1bwLMQrKyk6diShgQhyYHkc8hdDnkKZ2stIIXwGSNKh8/edit#heading=h.gjdgxs'>
+          <a href='https://github.com/ccareyncsu'>
             <span title="View Chasen on GitHub">
               <div className='file-background social-icon'>
                 <FaGithub className='file' title='Github'/>
