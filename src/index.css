@@ -201,17 +201,29 @@ body {
 }
 
 .social-icons{
-  margin: 20px 0 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin:20px 0;
+  max-width: 1000px;
 }
+
+.social-icons a{
+  text-decoration: none;
+}
+
 .social-icon{
-  margin-left: 10px;
   transition: all .5s ease;
+  margin-bottom: 5px;
 }
 
 .social-icon:hover{
   -webkit-transform: rotate(360deg);
   -webkit-transition: -webkit-transform .5s ease-in-out;
   background: #025353;
+}
+
+.contact-label{
+  color: #025353;
 }
 
 .file-background{
