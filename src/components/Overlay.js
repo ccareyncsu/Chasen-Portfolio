@@ -15,7 +15,7 @@ export default function Overlay(props){
           <li><a href='#contact' onClick={props.onClick()}>Contact</a></li>
           <li>
             <a 
-              href='https://docs.google.com/document/d/1bwLMQrKyk6diShgQhyYHkc8hdDnkKZ2stIIXwGSNKh8/edit#heading=h.gjdgxs' 
+              href='https://drive.google.com/file/d/147bvYLo6cN07PaaxMnTSKjQ9f07B85FQ/view?usp=sharing' 
               target='_blank' 
               onClick={props.onClick()}>
               Resume

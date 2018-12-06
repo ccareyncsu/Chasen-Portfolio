@@ -28,7 +28,7 @@ export default function ContactSection (props) {
             </a>
           </div>
           <div className='col'>
-            <a href='https://github.com/ccareyncsu'>
+            <a href='https://github.com/ccareyncsu' target="_blank">
               <span title="View Chasen on GitHub">
                 <div className='file-background social-icon'>
                   <FaGithub className='file' title='Github'/>
@@ -38,7 +38,7 @@ export default function ContactSection (props) {
             </a>
           </div>
           <div className='col'>
-            <a href='https://drive.google.com/drive/folders/0B12qxAkcYM7_UWt2cGtySElRcDQ'>
+            <a href='https://drive.google.com/file/d/147bvYLo6cN07PaaxMnTSKjQ9f07B85FQ/view?usp=sharing' target="_blank">
               <span title="View Chasen's Resume">
                 <div className='file-background social-icon'>
                   <FaRegFileAlt className='file' title='Resume'/>
