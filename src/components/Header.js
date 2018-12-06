@@ -15,9 +15,9 @@ export default function Header(props) {
 
       <div >
         <h2 className='quote'>
-          "Put your heart, mind, and soul <br/>
+          ''Put your heart, mind, and soul <br/>
            into even your smallest acts. <br/>
-           This is the secret of success."
+           This is the secret of success.''
         </h2>
       </div> 
     </div>

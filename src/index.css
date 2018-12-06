@@ -52,7 +52,7 @@ body {
 
 .teal-bar{
   background: #025353;
-  padding: 20px;
+  padding: 30px 20px;
 }
 
 .white-text{
@@ -134,7 +134,8 @@ body {
 }
 
 .links{
-  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .inline{
@@ -260,7 +261,7 @@ body {
   display: block; 
   content: " "; 
   margin-top: -57px; 
-  height: 51px; 
+  height: 50px; 
   visibility: hidden; 
   pointer-events: none;
 }
@@ -332,6 +333,9 @@ body {
   .quote{
     top: 100px !important; 
   }
+  .about-section::before, .section::before {
+    height: 56px;
+}
 }
 
 @media screen and (max-width: 750px){
