@@ -38,7 +38,7 @@ export default function ContactSection (props) {
             </a>
           </div>
           <div className='col'>
-            <a href='https://docs.google.com/document/d/1bwLMQrKyk6diShgQhyYHkc8hdDnkKZ2stIIXwGSNKh8/edit#heading=h.gjdgxs'>
+            <a href='https://drive.google.com/drive/folders/0B12qxAkcYM7_UWt2cGtySElRcDQ'>
               <span title="View Chasen's Resume">
                 <div className='file-background social-icon'>
                   <FaRegFileAlt className='file' title='Resume'/>
